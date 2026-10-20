@@ -1,0 +1,12 @@
+import SiteLayout from "../components/layout/SiteLayout";
+import ManagedContent from "../components/ui/ManagedContent";
+
+export default function ProjectsPage() {
+  return (
+    <SiteLayout page="projects" locale="ar">
+      <>
+        <main className="site-main"><section className="inner-hero"><div className="wrap"><div className="crumb"><a href="index.html">الرئيسية</a> / المشاريع المستقبلية</div><span className="eyebrow">خطواتنا القادمة</span><h1>مشاريع تنطلق من احتياجات الأطفال</h1><p>تعكس هذه المحاور توجه الأكاديمية نحو توسيع فرص الأطفال في الرياضة والترفيه والدعم المجتمعي.</p></div></section><section><div className="wrap"><div className="project-grid"><article className="info-card"><div className="icon">✳</div><small>رياضة</small><h2>برنامج رياضي للأطفال</h2><p>تطوير فرص منتظمة للتدريب في الجمباز والباركور والكاراتيه وأنشطة رياضية مناسبة للأعمار والإمكانات.</p><span className="project-label">مجال عمل مستقبلي</span></article><article className="info-card"><div className="icon">✳</div><small>وصول ميداني</small><h2>التدريب الميداني المتنقل</h2><p>إعداد أنشطة تدريبية مرنة يمكن تنفيذها في المساحات المتاحة، مع مراعاة السلامة واحتياجات الأطفال.</p><span className="project-label">مجال عمل مستقبلي</span></article><article className="info-card"><div className="icon">✳</div><small>دعم وترفيه</small><h2>اللعب والدعم النفسي الاجتماعي</h2><p>تنفيذ فعاليات ترفيهية وتفاعلية تساعد الأطفال على اللعب والتواصل والتعبير في بيئة داعمة.</p><span className="project-label">مجال عمل مستقبلي</span></article><article className="info-card"><div className="icon">✳</div><small>بناء قدرات</small><h2>تأهيل المدربين والمتطوعين</h2><p>تطوير فرص تبادل الخبرة ورفع جاهزية الفريق لتقديم أنشطة رياضية ومجتمعية آمنة وهادفة.</p><span className="project-label">مجال عمل مستقبلي</span></article><article className="info-card"><div className="icon">✳</div><small>تعاون</small><h2>الشراكات المجتمعية</h2><p>بناء تعاون مع المؤسسات والمبادرات لتطوير برامج مشتركة وتوسيع فرص مشاركة الأطفال.</p><span className="project-label">مجال عمل مستقبلي</span></article><article className="info-card"><div className="icon">✳</div><small>استدامة</small><h2>توثيق الأنشطة وقياس الأثر</h2><p>تنظيم سجل للأنشطة والمشاركة والبرامج والشراكات لدعم التعلم والتطوير المستقبلي.</p><span className="project-label">مجال عمل مستقبلي</span></article></div><ManagedContent type="projects" locale="ar" className="project-grid" /></div></section></main>
+      </>
+    </SiteLayout>
+  );
+}

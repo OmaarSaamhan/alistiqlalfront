@@ -1,0 +1,15 @@
+.git
+.next
+.next-dev
+.next-after-build-backup
+node_modules
+server/Academy.Api/bin
+server/Academy.Api/obj
+server/Academy.Api/App_Data
+server/Academy.Api/wwwroot/uploads
+work
+outputs
+.env
+.env.local
+npm-debug.log*
+.DS_Store

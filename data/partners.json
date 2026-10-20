@@ -1,0 +1,330 @@
+{
+  "partner-impact": {
+    "ar": {
+      "heroEyebrow": "شركاء النجاح",
+      "title": "مدرسة IMPACT الأمريكية",
+      "summary": "صفحة تعريفية بالشريك ومجالات التعاون مع الأكاديمية.",
+      "logo": "images/impact-school-placeholder.svg",
+      "logoAlt": "بطاقة تعريفية نصية مؤقتة لمدرسة IMPACT الأمريكية",
+      "logoStyle": "max-width:85%;max-height:120px;object-fit:contain;background:#fff;padding:14px;border-radius:16px",
+      "eyebrow": "قيد استكمال التفاصيل",
+      "heading": "شراكة نعتز بها",
+      "paragraphs": [
+        "نعتز بالتعاون مع مدرسة IMPACT الأمريكية. سنضيف هنا قريبًا تفاصيل الأنشطة المشتركة، والزيارات، وأثر التعاون في دعم الأطفال.",
+        "نعمل على إعداد محتوى تفصيلي لهذه الصفحة."
+      ],
+      "followup": {
+        "heroEyebrow": "معًا من أجل الأطفال",
+        "title": "الشراكات والتعاون",
+        "summary": "نعمل مع المؤسسات والمبادرات لتطوير أنشطة رياضية ومجتمعية تلبي احتياجات الأطفال.",
+        "eyebrow": "الشراكات والتعاون",
+        "heading": "معًا من أجل الأطفال",
+        "paragraphs": [
+          "نؤمن بأهمية التعاون في توسيع نطاق العمل الرياضي والمجتمعي وتطوير البرامج التي تستجيب لاحتياجات الأطفال.",
+          "نرحب بالتواصل مع المؤسسات المحلية والدولية، والمبادرات المجتمعية، والجهات المهتمة بالرياضة وتنمية الطفولة والدعم النفسي والترفيهي، لتبادل الخبرات وتنفيذ مبادرات مشتركة ذات أثر إيجابي.",
+          "للتعاون أو بناء شراكة، يسعدنا استقبال تواصلكم."
+        ],
+        "button": {
+          "href": "contact.html",
+          "text": "ابدأ حوارًا معنا ←"
+        },
+        "orbit": "معًا من أجلالأطفال",
+        "icons": [
+          "⚽",
+          "✳",
+          "♡",
+          "↗"
+        ]
+      }
+    },
+    "en": {
+      "heroEyebrow": "OUR PARTNERS",
+      "title": "IMPACT American Kindergarten",
+      "summary": "A partner profile and an overview of our collaboration with the Academy.",
+      "logo": "images/impact-school-placeholder.svg",
+      "logoAlt": "Temporary text card for IMPACT American Kindergarten",
+      "logoStyle": "max-width:85%;max-height:120px;object-fit:contain;background:#fff;padding:14px;border-radius:16px",
+      "eyebrow": "Details coming soon",
+      "heading": "A valued partnership",
+      "paragraphs": [
+        "We value our collaboration with IMPACT American Kindergarten. Details about shared activities, visits and the impact of this work for children will be added here.",
+        "More detailed partner information is being prepared for this page."
+      ],
+      "followup": {
+        "heroEyebrow": "Together for children",
+        "title": "Partnerships & collaboration",
+        "summary": "We work with organizations and initiatives to develop sports and community activities around children’s needs.",
+        "eyebrow": "Partnerships & collaboration",
+        "heading": "Together for children",
+        "paragraphs": [
+          "We believe collaboration helps extend our sports and community work and develop programs that respond to children’s needs.",
+          "We welcome local and international organizations, community initiatives and those working in sport, child development, psychosocial support and recreation to share expertise and build positive initiatives together.",
+          "We would be glad to hear from you about collaborating or building a partnership."
+        ],
+        "button": {
+          "href": "contact-en.html",
+          "text": "Start a conversation →"
+        },
+        "orbit": "Togetherfor children",
+        "icons": [
+          "⚽",
+          "✳",
+          "♡",
+          "↗"
+        ]
+      }
+    }
+  },
+  "partner-islamic-bank": {
+    "ar": {
+      "heroEyebrow": "شركاء النجاح",
+      "title": "البنك الإسلامي الفلسطيني",
+      "summary": "صفحة تعريفية بالشريك ومجالات التعاون مع الأكاديمية.",
+      "logo": "images/palestine-islamic-bank-logo.png",
+      "logoAlt": "شعار البنك الإسلامي الفلسطيني",
+      "logoStyle": "max-width:85%;max-height:120px;object-fit:contain;background:#fff;padding:14px;border-radius:16px",
+      "eyebrow": "قيد استكمال التفاصيل",
+      "heading": "شراكة نعتز بها",
+      "paragraphs": [
+        "البنك الإسلامي الفلسطيني من المؤسسات التي نعتز بالعمل معها. سنضيف هنا قريبًا نبذة عن التعاون، ومجالاته، وأثره في دعم برامج الأكاديمية والمجتمع.",
+        "نعمل على إعداد محتوى تفصيلي لهذه الصفحة."
+      ],
+      "followup": {
+        "heroEyebrow": "معًا من أجل الأطفال",
+        "title": "الشراكات والتعاون",
+        "summary": "نعمل مع المؤسسات والمبادرات لتطوير أنشطة رياضية ومجتمعية تلبي احتياجات الأطفال.",
+        "eyebrow": "الشراكات والتعاون",
+        "heading": "معًا من أجل الأطفال",
+        "paragraphs": [
+          "نؤمن بأهمية التعاون في توسيع نطاق العمل الرياضي والمجتمعي وتطوير البرامج التي تستجيب لاحتياجات الأطفال.",
+          "نرحب بالتواصل مع المؤسسات المحلية والدولية، والمبادرات المجتمعية، والجهات المهتمة بالرياضة وتنمية الطفولة والدعم النفسي والترفيهي، لتبادل الخبرات وتنفيذ مبادرات مشتركة ذات أثر إيجابي.",
+          "للتعاون أو بناء شراكة، يسعدنا استقبال تواصلكم."
+        ],
+        "button": {
+          "href": "contact.html",
+          "text": "ابدأ حوارًا معنا ←"
+        },
+        "orbit": "معًا من أجلالأطفال",
+        "icons": [
+          "⚽",
+          "✳",
+          "♡",
+          "↗"
+        ]
+      }
+    },
+    "en": {
+      "heroEyebrow": "OUR PARTNERS",
+      "title": "Palestine Islamic Bank",
+      "summary": "A partner profile and an overview of our collaboration with the Academy.",
+      "logo": "images/palestine-islamic-bank-logo.png",
+      "logoAlt": "Palestine Islamic Bank logo",
+      "logoStyle": "max-width:85%;max-height:120px;object-fit:contain;background:#fff;padding:14px;border-radius:16px",
+      "eyebrow": "Details coming soon",
+      "heading": "A valued partnership",
+      "paragraphs": [
+        "Palestine Islamic Bank is an organization whose collaboration we value. We will add an overview of our work together, its focus and its contribution to academy and community programs.",
+        "More detailed partner information is being prepared for this page."
+      ],
+      "followup": {
+        "heroEyebrow": "Together for children",
+        "title": "Partnerships & collaboration",
+        "summary": "We work with organizations and initiatives to develop sports and community activities around children’s needs.",
+        "eyebrow": "Partnerships & collaboration",
+        "heading": "Together for children",
+        "paragraphs": [
+          "We believe collaboration helps extend our sports and community work and develop programs that respond to children’s needs.",
+          "We welcome local and international organizations, community initiatives and those working in sport, child development, psychosocial support and recreation to share expertise and build positive initiatives together.",
+          "We would be glad to hear from you about collaborating or building a partnership."
+        ],
+        "button": {
+          "href": "contact-en.html",
+          "text": "Start a conversation →"
+        },
+        "orbit": "Togetherfor children",
+        "icons": [
+          "⚽",
+          "✳",
+          "♡",
+          "↗"
+        ]
+      }
+    }
+  },
+  "partner-jawwal": {
+    "ar": {
+      "heroEyebrow": "شركاء النجاح",
+      "title": "شركة جوال",
+      "summary": "صفحة تعريفية بالشريك ومجالات التعاون مع الأكاديمية.",
+      "logo": "images/jawwal-logo.webp",
+      "logoAlt": "شعار شركة جوال",
+      "logoStyle": "max-width:85%;max-height:120px;object-fit:contain;background:#fff;padding:14px;border-radius:16px",
+      "eyebrow": "قيد استكمال التفاصيل",
+      "heading": "شراكة نعتز بها",
+      "paragraphs": [
+        "شركة الاتصالات الخلوية الفلسطينية، وشريك نعتز بالتعاون معه في المبادرات والأنشطة المجتمعية. سنضيف هنا قريبًا تفاصيل التعاون ومجالاته وأبرز محطاته.",
+        "نعمل على إعداد محتوى تفصيلي لهذه الصفحة."
+      ],
+      "followup": {
+        "heroEyebrow": "معًا من أجل الأطفال",
+        "title": "الشراكات والتعاون",
+        "summary": "نعمل مع المؤسسات والمبادرات لتطوير أنشطة رياضية ومجتمعية تلبي احتياجات الأطفال.",
+        "eyebrow": "الشراكات والتعاون",
+        "heading": "معًا من أجل الأطفال",
+        "paragraphs": [
+          "نؤمن بأهمية التعاون في توسيع نطاق العمل الرياضي والمجتمعي وتطوير البرامج التي تستجيب لاحتياجات الأطفال.",
+          "نرحب بالتواصل مع المؤسسات المحلية والدولية، والمبادرات المجتمعية، والجهات المهتمة بالرياضة وتنمية الطفولة والدعم النفسي والترفيهي، لتبادل الخبرات وتنفيذ مبادرات مشتركة ذات أثر إيجابي.",
+          "للتعاون أو بناء شراكة، يسعدنا استقبال تواصلكم."
+        ],
+        "button": {
+          "href": "contact.html",
+          "text": "ابدأ حوارًا معنا ←"
+        },
+        "orbit": "معًا من أجلالأطفال",
+        "icons": [
+          "⚽",
+          "✳",
+          "♡",
+          "↗"
+        ]
+      }
+    },
+    "en": {
+      "heroEyebrow": "OUR PARTNERS",
+      "title": "Jawwal",
+      "summary": "A partner profile and an overview of our collaboration with the Academy.",
+      "logo": "images/jawwal-logo.webp",
+      "logoAlt": "Jawwal logo",
+      "logoStyle": "max-width:85%;max-height:120px;object-fit:contain;background:#fff;padding:14px;border-radius:16px",
+      "eyebrow": "Details coming soon",
+      "heading": "A valued partnership",
+      "paragraphs": [
+        "Palestinian Cellular Communications Company and a partner whose collaboration in community initiatives we value. Details about our work together and its highlights will be added here.",
+        "More detailed partner information is being prepared for this page."
+      ],
+      "followup": {
+        "heroEyebrow": "Together for children",
+        "title": "Partnerships & collaboration",
+        "summary": "We work with organizations and initiatives to develop sports and community activities around children’s needs.",
+        "eyebrow": "Partnerships & collaboration",
+        "heading": "Together for children",
+        "paragraphs": [
+          "We believe collaboration helps extend our sports and community work and develop programs that respond to children’s needs.",
+          "We welcome local and international organizations, community initiatives and those working in sport, child development, psychosocial support and recreation to share expertise and build positive initiatives together.",
+          "We would be glad to hear from you about collaborating or building a partnership."
+        ],
+        "button": {
+          "href": "contact-en.html",
+          "text": "Start a conversation →"
+        },
+        "orbit": "Togetherfor children",
+        "icons": [
+          "⚽",
+          "✳",
+          "♡",
+          "↗"
+        ]
+      }
+    }
+  },
+  "partner-khotwa": {
+    "ar": {
+      "heroEyebrow": "شريك افتراضي",
+      "title": "شركة خطوة للمسؤولية المجتمعية",
+      "summary": "اسم افتراضي للعرض المؤقت",
+      "logo": "images/partner-khotwa.svg",
+      "logoAlt": "شعار توضيحي افتراضي",
+      "logoStyle": "width:180px;height:180px;object-fit:contain;border-radius:50%;background:white",
+      "eyebrow": "قيد التحديث",
+      "heading": "ملف تجريبي",
+      "paragraphs": [
+        "هذه جهة افتراضية أُضيفت لاستكمال معاينة تصميم الشركاء. ستُحدّث الصفحة بالاسم والشعار ونبذة التعاون الصحيحة بعد تجهيز بيانات الشريك."
+      ],
+      "followup": {
+        "heroEyebrow": "",
+        "title": "",
+        "summary": "",
+        "eyebrow": "",
+        "heading": "",
+        "paragraphs": [],
+        "button": {},
+        "orbit": "",
+        "icons": []
+      }
+    },
+    "en": {
+      "heroEyebrow": "FICTIONAL PARTNER",
+      "title": "Khotwa Community Solutions",
+      "summary": "Temporary fictional profile",
+      "logo": "images/partner-khotwa.svg",
+      "logoAlt": "Fictional placeholder logo",
+      "logoStyle": "width:180px;height:180px;object-fit:contain;border-radius:50%;background:white",
+      "eyebrow": "Temporary profile",
+      "heading": "Placeholder profile",
+      "paragraphs": [
+        "This is a fictional organization added to complete the partner-section design preview. We will update this page with the real partner name, logo and collaboration details when available."
+      ],
+      "followup": {
+        "heroEyebrow": "",
+        "title": "",
+        "summary": "",
+        "eyebrow": "",
+        "heading": "",
+        "paragraphs": [],
+        "button": {},
+        "orbit": "",
+        "icons": []
+      }
+    }
+  },
+  "partner-ruwwad": {
+    "ar": {
+      "heroEyebrow": "شريك افتراضي",
+      "title": "شركة روّاد فلسطين للحلول التقنية",
+      "summary": "اسم افتراضي للعرض المؤقت",
+      "logo": "images/partner-ruwwad.svg",
+      "logoAlt": "شعار توضيحي افتراضي",
+      "logoStyle": "width:180px;height:180px;object-fit:contain;border-radius:50%;background:white",
+      "eyebrow": "قيد التحديث",
+      "heading": "ملف تجريبي",
+      "paragraphs": [
+        "هذه جهة افتراضية أُضيفت لاستكمال معاينة تصميم الشركاء. ستُحدّث الصفحة بالاسم والشعار ونبذة التعاون الصحيحة بعد تجهيز بيانات الشريك."
+      ],
+      "followup": {
+        "heroEyebrow": "",
+        "title": "",
+        "summary": "",
+        "eyebrow": "",
+        "heading": "",
+        "paragraphs": [],
+        "button": {},
+        "orbit": "",
+        "icons": []
+      }
+    },
+    "en": {
+      "heroEyebrow": "FICTIONAL PARTNER",
+      "title": "Ruwwad Palestine Technology Solutions",
+      "summary": "Temporary fictional profile",
+      "logo": "images/partner-ruwwad.svg",
+      "logoAlt": "Fictional placeholder logo",
+      "logoStyle": "width:180px;height:180px;object-fit:contain;border-radius:50%;background:white",
+      "eyebrow": "Temporary profile",
+      "heading": "Placeholder profile",
+      "paragraphs": [
+        "This is a fictional organization added to complete the partner-section design preview. We will update this page with the real partner name, logo and collaboration details when available."
+      ],
+      "followup": {
+        "heroEyebrow": "",
+        "title": "",
+        "summary": "",
+        "eyebrow": "",
+        "heading": "",
+        "paragraphs": [],
+        "button": {},
+        "orbit": "",
+        "icons": []
+      }
+    }
+  }
+}

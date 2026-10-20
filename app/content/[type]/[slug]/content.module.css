@@ -1,0 +1,12 @@
+.page{min-height:70vh;background:#fffdf8;color:#28241d;font-family:'IBM Plex Sans Arabic','DM Sans',sans-serif}
+.wrap{width:min(1120px,calc(100% - 40px));margin-inline:auto}
+.hero{padding:68px 0 54px;border-bottom:1px solid #eee8db;background:linear-gradient(120deg,#fbf7eb,#fffdf8 70%)}
+.breadcrumb{margin-bottom:24px;color:#8d8577;font-size:12px}.breadcrumb a{color:inherit;text-decoration:none}.breadcrumb a:hover{color:#9d791b}
+.hero>div>span{display:inline-flex;padding:6px 10px;border-radius:20px;background:#f3ead0;color:#967418;font-size:11px}
+.hero h1{max-width:850px;margin:15px 0 0;font-size:clamp(27px,4vw,43px);line-height:1.4}
+.hero p{max-width:800px;margin:11px 0 0;color:#736b5e;font-size:16px;line-height:1.8}
+.details{padding:44px 0 80px}.cover{display:block;width:min(100%,680px);max-height:460px;margin:0 auto 36px;border:1px solid #ece6d9;border-radius:16px;background:#fff;object-fit:cover}.copy{max-width:850px;margin:0 auto 34px;color:#5f594f;font-size:15px;line-height:2}.copy p{margin:0 0 16px}.copy time{display:block;margin-bottom:16px;color:#967418;font-size:12px}
+.activityStory p{text-align:justify;text-justify:inter-word}
+.details h2{margin:35px 0 16px;font-size:22px}.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}.gallery a{overflow:hidden;aspect-ratio:4/3;border:1px solid #eee7d9;border-radius:12px;background:#f6f2e9}.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .25s}.gallery a:hover img{transform:scale(1.03)}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:25px}.tags span{padding:6px 10px;border-radius:20px;background:#f5f0e2;color:#98751b;font-size:11px}.back{display:inline-flex;gap:8px;margin-top:34px;color:#8d6d19;text-decoration:none;font-size:13px;font-weight:700}.back span{font-size:17px}
+@media(max-width:650px){.wrap{width:calc(100% - 30px)}.hero{padding:45px 0 36px}.hero p{font-size:14px}.details{padding:27px 0 55px}.gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.copy{font-size:14px}.cover{border-radius:11px}}

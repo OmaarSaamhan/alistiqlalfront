@@ -1,0 +1,344 @@
+[
+  {
+    "file": "about-en.html",
+    "module": "about-en",
+    "component": "AboutEnPage",
+    "page": "about-en",
+    "locale": "en",
+    "title": "About | Al-Istiqlal Sports Academy",
+    "description": "Explore activities and events by Al-Istiqlal Sports Academy in Gaza."
+  },
+  {
+    "file": "about.html",
+    "module": "about",
+    "component": "AboutPage",
+    "page": "about",
+    "locale": "ar",
+    "title": "من نحن | أكاديمية الاستقلال الرياضية",
+    "description": "مسيرة أنشطة أكاديمية الاستقلال الرياضية في غزة."
+  },
+  {
+    "file": "activities-en.html",
+    "module": "activities-en",
+    "component": "ActivitiesEnPage",
+    "page": "activities-en",
+    "locale": "en",
+    "title": "Activities & Events | Al-Istiqlal Sports Academy",
+    "description": "Explore activities and events by Al-Istiqlal Sports Academy in Gaza."
+  },
+  {
+    "file": "activities.html",
+    "module": "activities",
+    "component": "ActivitiesPage",
+    "page": "activities",
+    "locale": "ar",
+    "title": "الأنشطة والفعاليات | أكاديمية الاستقلال الرياضية",
+    "description": "مسيرة أنشطة أكاديمية الاستقلال الرياضية في غزة."
+  },
+  {
+    "file": "contact-en.html",
+    "module": "contact-en",
+    "component": "ContactEnPage",
+    "page": "contact-en",
+    "locale": "en",
+    "title": "Contact | Al-Istiqlal Sports Academy",
+    "description": "Explore activities and events by Al-Istiqlal Sports Academy in Gaza."
+  },
+  {
+    "file": "contact.html",
+    "module": "contact",
+    "component": "ContactPage",
+    "page": "contact",
+    "locale": "ar",
+    "title": "تواصل معنا | أكاديمية الاستقلال الرياضية",
+    "description": "مسيرة أنشطة أكاديمية الاستقلال الرياضية في غزة."
+  },
+  {
+    "file": "index-en.html",
+    "module": "index-en",
+    "component": "IndexEnPage",
+    "page": "index-en",
+    "locale": "en",
+    "title": "Al-Istiqlal Sports Academy | Sport Creates Hope",
+    "description": "Al-Istiqlal Sports Academy in Gaza — Sport creates hope, and people are our purpose."
+  },
+  {
+    "file": "index.html",
+    "module": "index",
+    "component": "IndexPage",
+    "page": "index",
+    "locale": "ar",
+    "title": "أكاديمية الاستقلال الرياضية | الرياضة تصنع الأمل",
+    "description": "أكاديمية الاستقلال الرياضية في غزة — الرياضة تصنع الأمل، والإنسان هو رسالتنا."
+  },
+  {
+    "file": "news-1-en.html",
+    "module": "news-1-en",
+    "component": "News1EnPage",
+    "page": "news-1-en",
+    "locale": "en",
+    "title": "Gymnastics, parkour and karate training | Al-Istiqlal Sports Academy",
+    "description": "The academy offered children gymnastics, parkour and karate training as part of its sports program in Sheikh Radwan."
+  },
+  {
+    "file": "news-1.html",
+    "module": "news-1",
+    "component": "News1Page",
+    "page": "news-1",
+    "locale": "ar",
+    "title": "برامج الجمباز والباركور والكاراتيه | أكاديمية الاستقلال الرياضية",
+    "description": "قدمت الأكاديمية للأطفال تدريبات في الجمباز والباركور والكاراتيه ضمن مسيرتها الرياضية في الشيخ رضوان."
+  },
+  {
+    "file": "news-2-en.html",
+    "module": "news-2-en",
+    "component": "News2EnPage",
+    "page": "news-2-en",
+    "locale": "en",
+    "title": "Field training keeps activities going | Al-Istiqlal Sports Academy",
+    "description": "During the war, the academy adapted its work and continued reaching children through field training in available spaces."
+  },
+  {
+    "file": "news-2.html",
+    "module": "news-2",
+    "component": "News2Page",
+    "page": "news-2",
+    "locale": "ar",
+    "title": "التدريب الميداني واستمرار الأنشطة | أكاديمية الاستقلال الرياضية",
+    "description": "كيّفت الأكاديمية أنشطتها خلال الحرب، وواصلت الوصول إلى الأطفال عبر التدريب الميداني في الأماكن المتاحة."
+  },
+  {
+    "file": "news-3-en.html",
+    "module": "news-3-en",
+    "component": "News3EnPage",
+    "page": "news-3-en",
+    "locale": "en",
+    "title": "Recreation and psychosocial support for children | Al-Istiqlal Sports Academy",
+    "description": "The academy’s activities included recreational and community events that gave children opportunities to play, connect and express themselves."
+  },
+  {
+    "file": "news-3.html",
+    "module": "news-3",
+    "component": "News3Page",
+    "page": "news-3",
+    "locale": "ar",
+    "title": "فعاليات ترفيهية ودعم نفسي للأطفال | أكاديمية الاستقلال الرياضية",
+    "description": "تضمنت أنشطة الأكاديمية فعاليات ترفيهية ومجتمعية وفرت للأطفال فرصًا للعب والتفاعل والتعبير."
+  },
+  {
+    "file": "news-4-en.html",
+    "module": "news-4-en",
+    "component": "News4EnPage",
+    "page": "news-4-en",
+    "locale": "en",
+    "title": "Al-Istiqlal Sports Academy begins its journey in 2019 | Al-Istiqlal Sports Academy",
+    "description": "Al-Istiqlal Sports Academy began in 2019 in Sheikh Radwan, Gaza, with a focus on developing children’s abilities and sporting talents."
+  },
+  {
+    "file": "news-4.html",
+    "module": "news-4",
+    "component": "News4Page",
+    "page": "news-4",
+    "locale": "ar",
+    "title": "انطلاق أكاديمية الاستقلال الرياضية عام ٢٠١٩ | أكاديمية الاستقلال الرياضية",
+    "description": "انطلقت أكاديمية الاستقلال الرياضية عام ٢٠١٩ من منطقة الشيخ رضوان في مدينة غزة، لتطوير قدرات الأطفال ومواهبهم الرياضية."
+  },
+  {
+    "file": "news-en.html",
+    "module": "news-en",
+    "component": "NewsEnPage",
+    "page": "news-en",
+    "locale": "en",
+    "title": "Academy News | Al-Istiqlal Sports Academy",
+    "description": "News, announcements and activity updates from Al-Istiqlal Sports Academy."
+  },
+  {
+    "file": "news.html",
+    "module": "news",
+    "component": "NewsPage",
+    "page": "news",
+    "locale": "ar",
+    "title": "أخبار الأكاديمية | أكاديمية الاستقلال الرياضية",
+    "description": "أخبار أكاديمية الاستقلال الرياضية وإعلاناتها وأنشطتها."
+  },
+  {
+    "file": "partner-impact-en.html",
+    "module": "partner-impact-en",
+    "component": "PartnerImpactEnPage",
+    "page": "partner-impact-en",
+    "locale": "en",
+    "title": "IMPACT American Kindergarten | Al-Istiqlal Sports Academy",
+    "description": "We value our collaboration with IMPACT American Kindergarten. Details about shared activities, visits and the impact of this work for children will be added here."
+  },
+  {
+    "file": "partner-impact.html",
+    "module": "partner-impact",
+    "component": "PartnerImpactPage",
+    "page": "partner-impact",
+    "locale": "ar",
+    "title": "مدرسة IMPACT الأمريكية | أكاديمية الاستقلال الرياضية",
+    "description": "نعتز بالتعاون مع مدرسة IMPACT الأمريكية. سنضيف هنا قريبًا تفاصيل الأنشطة المشتركة، والزيارات، وأثر التعاون في دعم الأطفال."
+  },
+  {
+    "file": "partner-islamic-bank-en.html",
+    "module": "partner-islamic-bank-en",
+    "component": "PartnerIslamicBankEnPage",
+    "page": "partner-islamic-bank-en",
+    "locale": "en",
+    "title": "Palestine Islamic Bank | Al-Istiqlal Sports Academy",
+    "description": "Palestine Islamic Bank is an organization whose collaboration we value. We will add an overview of our work together, its focus and its contribution to academy and community programs."
+  },
+  {
+    "file": "partner-islamic-bank.html",
+    "module": "partner-islamic-bank",
+    "component": "PartnerIslamicBankPage",
+    "page": "partner-islamic-bank",
+    "locale": "ar",
+    "title": "البنك الإسلامي الفلسطيني | أكاديمية الاستقلال الرياضية",
+    "description": "البنك الإسلامي الفلسطيني من المؤسسات التي نعتز بالعمل معها. سنضيف هنا قريبًا نبذة عن التعاون، ومجالاته، وأثره في دعم برامج الأكاديمية والمجتمع."
+  },
+  {
+    "file": "partner-jawwal-en.html",
+    "module": "partner-jawwal-en",
+    "component": "PartnerJawwalEnPage",
+    "page": "partner-jawwal-en",
+    "locale": "en",
+    "title": "Jawwal | Al-Istiqlal Sports Academy",
+    "description": "Palestinian Cellular Communications Company and a partner whose collaboration in community initiatives we value. Details about our work together and its highlights will be added here."
+  },
+  {
+    "file": "partner-jawwal.html",
+    "module": "partner-jawwal",
+    "component": "PartnerJawwalPage",
+    "page": "partner-jawwal",
+    "locale": "ar",
+    "title": "شركة جوال | أكاديمية الاستقلال الرياضية",
+    "description": "شركة الاتصالات الخلوية الفلسطينية، وشريك نعتز بالتعاون معه في المبادرات والأنشطة المجتمعية. سنضيف هنا قريبًا تفاصيل التعاون ومجالاته وأبرز محطاته."
+  },
+  {
+    "file": "partner-khotwa-en.html",
+    "module": "partner-khotwa-en",
+    "component": "PartnerKhotwaEnPage",
+    "page": "partner-khotwa-en",
+    "locale": "en",
+    "title": "Khotwa Community Solutions | Al-Istiqlal Sports Academy",
+    "description": "A fictional company used as a temporary design placeholder. Replace its name and logo when the real company details are available."
+  },
+  {
+    "file": "partner-khotwa.html",
+    "module": "partner-khotwa",
+    "component": "PartnerKhotwaPage",
+    "page": "partner-khotwa",
+    "locale": "ar",
+    "title": "شركة خطوة للمسؤولية المجتمعية | أكاديمية الاستقلال الرياضية",
+    "description": "شريك افتراضي للتصميم المؤقت. سنستبدل الاسم والشعار عند تزويدنا ببيانات الشركة الحقيقية."
+  },
+  {
+    "file": "partner-ruwwad-en.html",
+    "module": "partner-ruwwad-en",
+    "component": "PartnerRuwwadEnPage",
+    "page": "partner-ruwwad-en",
+    "locale": "en",
+    "title": "Ruwwad Palestine Technology Solutions | Al-Istiqlal Sports Academy",
+    "description": "A fictional partner used as a temporary design placeholder. Replace its name and logo when the real organization details are available."
+  },
+  {
+    "file": "partner-ruwwad.html",
+    "module": "partner-ruwwad",
+    "component": "PartnerRuwwadPage",
+    "page": "partner-ruwwad",
+    "locale": "ar",
+    "title": "شركة روّاد فلسطين للحلول التقنية | أكاديمية الاستقلال الرياضية",
+    "description": "شريك افتراضي للتصميم المؤقت. سنستبدل الاسم والشعار عند تزويدنا ببيانات المؤسسة الحقيقية."
+  },
+  {
+    "file": "partnerships-en.html",
+    "module": "partnerships-en",
+    "component": "PartnershipsEnPage",
+    "page": "partnerships-en",
+    "locale": "en",
+    "title": "Partnerships & collaboration | Al-Istiqlal Sports Academy",
+    "description": "Explore activities and events by Al-Istiqlal Sports Academy in Gaza."
+  },
+  {
+    "file": "partnerships.html",
+    "module": "partnerships",
+    "component": "PartnershipsPage",
+    "page": "partnerships",
+    "locale": "ar",
+    "title": "الشراكات والتعاون | أكاديمية الاستقلال الرياضية",
+    "description": "مسيرة أنشطة أكاديمية الاستقلال الرياضية في غزة."
+  },
+  {
+    "file": "programs-en.html",
+    "module": "programs-en",
+    "component": "ProgramsEnPage",
+    "page": "programs-en",
+    "locale": "en",
+    "title": "Programs | Al-Istiqlal Sports Academy",
+    "description": "Explore the Academy’s sports training, field activities and participation programs for children."
+  },
+  {
+    "file": "programs.html",
+    "module": "programs",
+    "component": "ProgramsPage",
+    "page": "programs",
+    "locale": "ar",
+    "title": "البرامج | أكاديمية الاستقلال الرياضية",
+    "description": "تعرف على برامج الأكاديمية الرياضية والأنشطة الميدانية ومبادرات المشاركة والدعم للأطفال."
+  },
+  {
+    "file": "projects-en.html",
+    "module": "projects-en",
+    "component": "ProjectsEnPage",
+    "page": "projects-en",
+    "locale": "en",
+    "title": "Future Projects | Al-Istiqlal Sports Academy",
+    "description": "Future development priorities for Al-Istiqlal Sports Academy."
+  },
+  {
+    "file": "projects.html",
+    "module": "projects",
+    "component": "ProjectsPage",
+    "page": "projects",
+    "locale": "ar",
+    "title": "المشاريع المستقبلية | أكاديمية الاستقلال الرياضية",
+    "description": "توجهات ومشاريع مستقبلية مقترحة لأكاديمية الاستقلال الرياضية."
+  },
+  {
+    "file": "team-en.html",
+    "module": "team-en",
+    "component": "TeamEnPage",
+    "page": "team-en",
+    "locale": "en",
+    "title": "Our Team & Board | Al-Istiqlal Sports Academy",
+    "description": "Meet the board and team of Al-Istiqlal Sports Academy."
+  },
+  {
+    "file": "team.html",
+    "module": "team",
+    "component": "TeamPage",
+    "page": "team",
+    "locale": "ar",
+    "title": "الكادر ومجلس الإدارة | أكاديمية الاستقلال الرياضية",
+    "description": "تعرّف على مجلس إدارة وكادر أكاديمية الاستقلال الرياضية."
+  },
+  {
+    "file": "services.html",
+    "module": "services",
+    "component": "ServicesPage",
+    "page": "services",
+    "locale": "ar",
+    "title": "خدماتنا | أكاديمية الاستقلال الرياضية",
+    "description": "الأندية الرياضية والثقافية والاجتماعية والإعلامية، ونادي المواهب والدعم النفسي والاجتماعي للأطفال."
+  },
+  {
+    "file": "services-en.html",
+    "module": "services-en",
+    "component": "ServicesEnPage",
+    "page": "services-en",
+    "locale": "en",
+    "title": "Our Services | Al-Istiqlal Sports Academy",
+    "description": "Sports, cultural, social and media clubs, talent development and psychosocial support for children."
+  }
+]

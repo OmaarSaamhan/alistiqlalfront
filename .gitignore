@@ -1,0 +1,14 @@
+node_modules/
+.next/
+.next-dev/
+.next-after-build-backup/
+out/
+.DS_Store
+npm-debug.log*
+server/Academy.Api/bin/
+server/Academy.Api/obj/
+server/Academy.Api/App_Data/
+server/Academy.Api/wwwroot/uploads/
+.env.local
+.env
+!.env.example
