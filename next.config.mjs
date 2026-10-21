@@ -5,7 +5,7 @@ const nextConfig = {
   // Preserve the existing .html URLs as valid Next.js routes.
   trailingSlash: false,
   async rewrites() {
-    const apiOrigin = process.env.ACADEMY_API_ORIGIN || "http://localhost:5042";
+    const apiOrigin = process.env.ACADEMY_API_ORIGIN || "http://alistiqlalacadmey.runasp.net";
     return [
       { source: "/api/:path*", destination: `${apiOrigin}/api/:path*` },
       { source: "/uploads/:path*", destination: `${apiOrigin}/uploads/:path*` },
