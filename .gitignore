@@ -11,4 +11,6 @@ server/Academy.Api/App_Data/
 server/Academy.Api/wwwroot/uploads/
 .env.local
 .env
+.env.*
+*.log
 !.env.example

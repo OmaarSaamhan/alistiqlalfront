@@ -15,6 +15,11 @@
 .period{display:flex;justify-content:space-between;margin-top:12px;padding:9px 10px;border-radius:8px;background:#f9f6ef;font-size:11px}.period span{color:#898171}
 .readMore{display:inline-flex;align-items:center;gap:8px;margin-top:13px;color:#8f6e19;text-decoration:none;font-size:11px;font-weight:700}.readMore span{font-size:15px;transition:transform .2s}.readMore:hover span{transform:translateX(-3px)}
 .players{grid-template-columns:repeat(4,minmax(0,1fr))}
+.team{grid-template-columns:repeat(3,minmax(0,1fr))}
+.card-team .image{aspect-ratio:4/3}
+.card-team .meta{justify-content:flex-start;font-size:12px;font-weight:700}
+.card-team .body h2{font-size:19px}
+.card-team .body p{font-size:14px;line-height:1.9}
 .card-players .image{aspect-ratio:1/1}
 .card-players .body h2{font-size:15px}
 .card-programs,.card-projects{min-height:260px}
@@ -22,5 +27,5 @@
 .card-activities,.card-news{display:grid;grid-template-columns:minmax(150px,.9fr) minmax(0,1.4fr);align-items:stretch}
 .card-activities .image,.card-news .image{height:100%;min-height:195px;aspect-ratio:auto}
 .card-activities .body,.card-news .body{align-self:center}
-@media(max-width:900px){.collection,.players{grid-template-columns:repeat(2,minmax(0,1fr))}.activities,.news{grid-template-columns:1fr}}
-@media(max-width:560px){.collection,.players,.activities,.news{grid-template-columns:1fr}.card-activities,.card-news{grid-template-columns:minmax(110px,.8fr) minmax(0,1.2fr)}.card-activities .body,.card-news .body{padding:13px}.body h2{font-size:15px}.card-activities .image,.card-news .image{min-height:160px}}
+@media(max-width:900px){.collection,.players,.team{grid-template-columns:repeat(2,minmax(0,1fr))}.activities,.news{grid-template-columns:1fr}}
+@media(max-width:560px){.collection,.players,.team,.activities,.news{grid-template-columns:1fr}.card-activities,.card-news{grid-template-columns:minmax(110px,.8fr) minmax(0,1.2fr)}.card-activities .body,.card-news .body{padding:13px}.body h2{font-size:15px}.card-activities .image,.card-news .image{min-height:160px}}

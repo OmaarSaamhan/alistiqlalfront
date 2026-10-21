@@ -19,27 +19,30 @@ export default function ManagedContent({ type, locale = "ar", limit, className =
   const visible = limit ? records.slice(0, limit) : records;
   if (!visible.length) return null;
   const english = locale === "en";
-  const typeName = english ? ({ activities: "Activities", programs: "Programs", projects: "Future initiatives", news: "News", players: "Featured players" }[type]) : ({ activities: "أنشطة وفعاليات مضافة", programs: "برامج الأكاديمية", projects: "البرامج المستقبلية", news: "أخبار الأكاديمية", players: "لاعبون مميزون" }[type]);
+  const typeName = english ? ({ activities: "Activities", programs: "Programs", projects: "Future initiatives", news: "News", players: "Featured players", team: "Academy team" }[type]) : ({ activities: "أنشطة وفعاليات مضافة", programs: "برامج الأكاديمية", projects: "البرامج المستقبلية", news: "أخبار الأكاديمية", players: "لاعبون مميزون", team: "فريق الأكاديمية" }[type]);
 
   return <div className={`${styles.collection} ${styles[type]} ${className}`} aria-label={typeName}>
     {visible.map((item) => {
       const text = (key) => english ? (item[`${key}En`] || item[key] || "") : (item[key] || item[`${key}En`] || "");
       const image = item.cardImage;
-      const href = `/content/${paths[type]}/${encodeURIComponent(item.slug)}${english ? "?lang=en" : ""}`;
+      const href = paths[type] ? `/content/${paths[type]}/${encodeURIComponent(item.slug)}${english ? "?lang=en" : ""}` : null;
       const summary = text("subtitle") || text("content");
+      const isTeam = type === "team";
       const tags = english ? (item.hashtagsEn?.length ? item.hashtagsEn : item.hashtags) : item.hashtags;
       return <article className={`${styles.card} ${styles[`card-${type}`]}`} key={item.id}>
         {image && (type === "players"
           ? <div className={styles.image}><img src={image} alt={playerNameForAlt(item, english)} loading="lazy" /></div>
-          : <a className={styles.image} href={href} tabIndex={-1} aria-hidden="true"><img src={image} alt="" loading="lazy" /></a>)}
+          : isTeam
+            ? <div className={styles.image}><img src={image} alt={playerNameForAlt(item, english)} loading="lazy" /></div>
+            : <a className={styles.image} href={href} tabIndex={-1} aria-hidden="true"><img src={image} alt="" loading="lazy" /></a>)}
         <div className={styles.body}>
-          {(text("category") || text("sport") || item.date) && <div className={styles.meta}><span>{text("category") || text("sport") || typeName}</span>{item.date && <time dateTime={item.date}>{item.date}</time>}</div>}
-          <h2>{type === "players" ? (text("name") || text("title")) : <a href={href}>{text("name") || text("title")}</a>}</h2>
-          {type !== "players" && text("subtitle") && <h3>{text("subtitle")}</h3>}
+          {(isTeam ? text("title") : text("category") || text("sport") || item.date) && <div className={styles.meta}><span>{isTeam ? text("title") : text("category") || text("sport") || typeName}</span>{item.date && <time dateTime={item.date}>{item.date}</time>}</div>}
+          <h2>{type === "players" || isTeam ? (text("name") || text("title")) : <a href={href}>{text("name") || text("title")}</a>}</h2>
+          {type !== "players" && !isTeam && text("subtitle") && <h3>{text("subtitle")}</h3>}
           {type !== "players" && summary && <p>{summary.length > 250 ? `${summary.slice(0, 247)}…` : summary}</p>}
           {item.type === "players" && text("playingPeriod") && <div className={styles.period}><span>{english ? "Playing period" : "فترة اللعب"}</span><b>{text("playingPeriod")}</b></div>}
-          {type !== "players" && !!tags?.length && <div className={styles.tags}>{tags.map((tag) => <span key={tag}>#{tag.replace(/^#/, "")}</span>)}</div>}
-          {type !== "players" && <a className={styles.readMore} href={href}>{english ? "Read more" : "التفاصيل"}<span>{english ? "→" : "←"}</span></a>}
+          {type !== "players" && !isTeam && !!tags?.length && <div className={styles.tags}>{tags.map((tag) => <span key={tag}>#{tag.replace(/^#/, "")}</span>)}</div>}
+          {type !== "players" && !isTeam && <a className={styles.readMore} href={href}>{english ? "Read more" : "التفاصيل"}<span>{english ? "→" : "←"}</span></a>}
         </div>
       </article>;
     })}

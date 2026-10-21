@@ -5,19 +5,29 @@ import { useEffect, useState } from "react";
 export default function HomePlayerSlider({ locale = "ar" }) {
   const [players, setPlayers] = useState([]);
   const [loaded, setLoaded] = useState(false);
+  const [failed, setFailed] = useState(false);
   const english = locale === "en";
 
   useEffect(() => {
     let active = true;
     fetch("/api/content/players", { cache: "no-store" })
-      .then((response) => response.ok ? response.json() : [])
-      .then((items) => { if (active && Array.isArray(items)) setPlayers(items); })
-      .catch(() => {})
+      .then((response) => {
+        if (!response.ok) throw new Error("Player content request failed");
+        return response.json();
+      })
+      .then((items) => {
+        if (!Array.isArray(items)) throw new Error("Player content response is invalid");
+        if (active) setPlayers(items);
+      })
+      .catch(() => { if (active) setFailed(true); })
       .finally(() => { if (active) setLoaded(true); });
     return () => { active = false; };
   }, []);
 
   if (!loaded) return <div className="players-window" aria-busy="true" />;
+  if (failed) return <p className="player-note" role="status">{english
+    ? "Could not load the saved player cards. Their data is still saved; start the API server and refresh the page."
+    : "تعذّر تحميل بطاقات اللاعبين. بياناتهم ما زالت محفوظة؛ شغّل خادم الـAPI ثم حدّث الصفحة."}</p>;
   if (!players.length) return <p className="player-note">{english ? "Player cards will appear here when added in the admin panel." : "ستظهر بطاقات اللاعبين هنا بعد إضافتها من لوحة التحكم."}</p>;
 
   // Keep the marquee filled even when the academy has only a few player cards.
